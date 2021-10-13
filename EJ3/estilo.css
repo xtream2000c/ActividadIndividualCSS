@@ -1,0 +1,25 @@
+div.cuaderno a:after{
+    content:url('imagenes/link.png');
+    padding-left:1em;
+}
+
+div.bloqueexplicacion > ol {
+    border: dotted 0.1em black;
+    background-color:white;
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+}
+
+div.bloqueexplicacion > ul {
+    border: dashed 0.1em blue;
+    background-color:white;
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+}
+
+div.bloqueexplicacion dd {
+    border: dotted 0.1em black;
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+    background-color: #ffd6d6;
+}
