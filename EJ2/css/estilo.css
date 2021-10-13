@@ -1,0 +1,38 @@
+body{
+    width: 0 auto;
+}
+
+h1.ldi{
+    width: 0 auto;
+    padding-left: 1%;
+    color: white;
+    background-color: blue;
+}
+
+nav{
+    margin: 0%;
+    margin-left: 2%;
+}
+
+h2.ldi{
+    width: 0 auto;
+    padding-left: 1%;
+    color: white;
+    background-color: blue;
+}
+
+h3.ldi{
+    color: blue;
+}
+
+table{
+    background-color: aquamarine;
+    border: 2px dashed blue;
+    width: 100%; 
+}
+
+img{
+    width: 140px;
+    height: 85px;
+}
+
