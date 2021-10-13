@@ -1,0 +1,71 @@
+header{
+    text-align: center;
+}
+
+.centro{
+    text-align: center;
+}
+
+.DWEC{
+background-color: blue;
+}
+
+.DWEC:hover{
+    background-color: yellow;
+}
+
+.DWES{
+background-color: brown;
+}
+
+.DWES:hover {
+    background-color: yellow;
+}
+
+.DII{
+background-color: cyan;
+}
+
+.DII:hover{
+    background-color: yellow;
+}
+
+.DAW{
+background-color: burlywood;
+}
+
+.DAW:hover{
+    background-color: yellow;
+}
+
+.HLC{
+background-color: chartreuse;
+}
+
+.HLC:hover{
+    background-color: yellow;
+}
+
+.EIE{
+background-color: grey;
+}
+
+.EIE:hover{
+    background-color: yellow;
+}
+
+.tabla{
+    width: 100%;
+}
+
+.pColumna{
+    width: 8%;
+}
+
+.tabla tr{
+    height: 100px;
+}
+
+.tabla, th, td{
+    border: 1px solid black;
+}
