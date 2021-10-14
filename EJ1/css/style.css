@@ -10,11 +10,15 @@ header{
 background-color: blue;
 }
 
-span.DWEC:hover {
+#DWEC{
+    background-color: blue;
+}
+
+#DWEC:hover {
     background-color: yellow;
 }
 
-span.DWEC:hover ~ table tr td.DWEC  {
+#DWEC:hover ~ table tr td.DWEC  {
     background-color: yellow;
 }
 
@@ -22,11 +26,15 @@ span.DWEC:hover ~ table tr td.DWEC  {
 background-color: brown;
 }
 
-span.DWES:hover{
+#DWES{
+    background-color: brown;
+}
+
+#DWES:hover{
     background-color: yellow;
 }
 
-span.DWES:hover ~ table tr td.DWES {
+#DWES:hover ~ table tr td.DWES {
     background-color: yellow;
 }
 
@@ -34,11 +42,15 @@ span.DWES:hover ~ table tr td.DWES {
 background-color: cyan;
 }
 
-span.DII:hover{
+#DII{
+    background-color: cyan;
+    }
+
+#DII:hover{
     background-color: yellow;
 }
 
-span.DII:hover ~ table tr td.DII{
+#DII:hover ~ table tr td.DII{
     background-color: yellow;
 }
 
@@ -46,11 +58,15 @@ span.DII:hover ~ table tr td.DII{
 background-color: burlywood;
 }
 
-span.DAW:hover{
+#DAW{
+    background-color: burlywood;
+}
+
+#DAW:hover{
     background-color: yellow;
 }
 
-span.DAW:hover ~ table tr td.DAW{
+#DAW:hover ~ table tr td.DAW{
     background-color: yellow;
 }
 
@@ -58,11 +74,15 @@ span.DAW:hover ~ table tr td.DAW{
 background-color: chartreuse;
 }
 
-span.HLC:hover{
+#HLC{
+    background-color: chartreuse;
+    }
+
+#HLC:hover{
     background-color: yellow;
 }
 
-span.HLC:hover ~ table tr td.HLC{
+#HLC:hover ~ table tr td.HLC{
     background-color: yellow;
 }
 
@@ -70,11 +90,15 @@ span.HLC:hover ~ table tr td.HLC{
 background-color: grey;
 }
 
-span.EIE:hover{
+#EIE{
+    background-color: grey;
+}
+
+#EIE:hover{
     background-color: yellow;
 }
 
-span.EIE:hover ~ table tr td.EIE{
+#EIE:hover ~ table tr td.EIE{
     background-color: yellow;
 }
 
