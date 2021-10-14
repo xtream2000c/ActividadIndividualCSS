@@ -23,3 +23,74 @@ div.bloqueexplicacion dd {
     padding-bottom:0.5em;
     background-color: #ffd6d6;
 }
+
+/* AQUI COMIENZA EL ESTILO DEL HTML CONSTRUCCION */
+
+body{
+    background-color: lightgrey;
+}
+
+.cabecera{
+    width: 0 auto;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-size: 2em;
+}
+
+div.lateral{
+    background-color: blue;
+    width: 10%;
+    float: left;
+}
+
+.logo{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.logo img{
+    height: 100px;
+}
+
+ul{
+    color: yellow;
+}
+
+ol li a{
+    text-decoration: none;
+    color: white;
+}
+
+.central{
+    background-color: lightcyan;
+    
+    margin: 0;
+    margin-left: 1%;
+    float:left;
+    width: 88%;
+}
+
+.central .aviso{
+    border:double red;
+    text-align: center;
+}
+
+.tituloaviso{
+    font-size: 2em;
+}
+
+.pie{
+    padding-right: 1%;
+    justify-content: right;
+    display: flex;
+    width: 100%;
+    color: yellow;
+    background-color: blue;
+    position:relative;
+    bottom: 0px;
+}
+
+/*AQUI ACABA EL ESTILO DEL HTML CONSTRUCCION*/
+
