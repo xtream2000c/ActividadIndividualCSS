@@ -35,7 +35,6 @@ body{
 .central{
     position: relative;
     display: inline-block;
-    text-align: center;
     width: 78%;
     margin: 0;
     margin-left: 1%;
@@ -54,13 +53,13 @@ ol li a{
     background-color:lightcyan;
     border: 5px double darkblue;
     padding: 10px;
+    text-align: center;
 }
 
 .areaLimpia{
     background-color: white;
-    position: absolute;
-    right: 20px;
-    margin: 0;
+    float: right;
+    margin: 20px;
     margin-top: 20px;
     border: 5px dashed darkblue;
     text-align: left
@@ -152,6 +151,7 @@ div.lateral{
 }
 
 .central .aviso{
+    text-align: center;
     border:double red;
     background-color: lightcyan;
 }
