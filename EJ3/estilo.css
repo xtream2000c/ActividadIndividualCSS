@@ -40,11 +40,6 @@ body{
     margin-left: 1%;
 }
 
-ol li a{
-    text-decoration: none;
-    color: white;
-}
-
 .cuaderno{
     background-color:lightyellow ;
 }
@@ -57,29 +52,35 @@ ol li a{
 }
 
 .areaLimpia{
-    background-color: white;
     float: right;
-    margin: 20px;
-    margin-top: 20px;
-    border: 5px dashed darkblue;
-    text-align: left
+    background-color:lightyellow;
 }
 
-.areaLimpia ol li a{
+.tablaContenido ol li a{
     text-decoration: none;
     color: darkblue;
 }
 
 .tablaContenido{
-    margin: 10px;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    text-align: left;
+    border: 5px dashed darkblue;
 }
 
-#objetivos , #problema{
-
-    margin: 20px;
+h3{
+    margin-left: 20px;
+    margin-right: 20px;
     color: darkblue;
     text-align: left;
     border-bottom: 2px solid darkblue;
+}
+
+
+.bloqueexplicacion{
+    background-color: lightcyan;
+    margin: 20px;
 }
 
 /* AQUI ACABA EL ESTILO GENERAL*/
@@ -106,6 +107,11 @@ div.lateral{
     background-color: darkblue;
     width: 20%;
     float: left;
+}
+
+.lateral ol li a{
+    text-decoration: none;
+    color: white;
 }
 
 .logo{
