@@ -106,9 +106,20 @@ h3{
     margin: 10px;
 }
 
+h4{
+    color:darkblue;
+}
+
 /* AQUI ACABA EL ESTILO GENERAL*/
 
+/*AQUI COMIENZA EL ESTILO DE CODIGO*/
 
+.codigo{
+    color: white;
+    background-color: navy;
+}
+
+/*AQUI ACABA EL ESTILO DE CODIGO*/
 
 /* AQUI COMIENZA EL ESTILO DE LA CABECERA */
 
