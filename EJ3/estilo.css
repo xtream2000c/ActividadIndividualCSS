@@ -24,7 +24,28 @@ div.bloqueexplicacion dd {
     background-color: #ffd6d6;
 }
 
+/* AQUI COMIENZA EL ESTILO DE LAS IMAGENES */
 
+
+
+/* AQUI ACABA EL ESTILO DE LAS IMAGENES*/
+
+.figura{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid blue;
+    overflow: hidden;
+}
+
+.figura img{
+    max-width: 100%;
+}
+
+.ecuacion{
+    text-align: center;
+}
 
 /* AQUI COMIENZA EL ESTILO GENERAL*/
 
@@ -42,6 +63,7 @@ body{
 
 .cuaderno{
     background-color:lightyellow ;
+    padding: 10px;
 }
 
 .central h2{
@@ -80,7 +102,8 @@ h3{
 
 .bloqueexplicacion{
     background-color: lightcyan;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
 }
 
 /* AQUI ACABA EL ESTILO GENERAL*/
@@ -135,6 +158,7 @@ div.lateral{
 /* AQUI COMIENZA EL ESTILO DEL PIE DE PAGINA */
 
 .pie{
+    margin-top: 10px;
     padding-right: 1%;
     justify-content: right;
     display: flex;
