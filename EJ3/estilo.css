@@ -24,33 +24,20 @@ div.bloqueexplicacion dd {
     background-color: #ffd6d6;
 }
 
-/* AQUI COMIENZA EL ESTILO DE LAS IMAGENES */
 
-
-
-/* AQUI ACABA EL ESTILO DE LAS IMAGENES*/
-
-.figura{
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-    background-color: white;
-    border: 1px solid blue;
-    overflow: hidden;
-}
-
-.figura img{
-    max-width: 100%;
-}
-
-.ecuacion{
-    text-align: center;
-}
 
 /* AQUI COMIENZA EL ESTILO GENERAL*/
 
 body{
     background-color: lightgrey;
+}
+
+.cabecera{
+    width: 0 auto;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    font-size: 1.5em;
 }
 
 .central{
@@ -69,6 +56,7 @@ body{
 .central h2{
     background-color:lightcyan;
     border: 5px double darkblue;
+    color: darkblue;
     padding: 10px;
     text-align: center;
 }
@@ -81,6 +69,10 @@ body{
 .tablaContenido ol li a{
     text-decoration: none;
     color: darkblue;
+}
+
+.tablaContenido ol li a:hover{
+    color: blue;
 }
 
 .tablaContenido{
@@ -99,7 +91,6 @@ h3{
     border-bottom: 2px solid darkblue;
 }
 
-
 .bloqueexplicacion{
     background-color: lightcyan;
     padding: 10px;
@@ -110,28 +101,33 @@ h4{
     color:darkblue;
 }
 
-/* AQUI ACABA EL ESTILO GENERAL*/
-
-/*AQUI COMIENZA EL ESTILO DE CODIGO*/
-
-.codigo{
-    color: white;
-    background-color: navy;
+.salidapantalla{
+    background-color: black;
+    color: green;
+    border: 4px double yellow;
+    margin: 10px;
+    overflow: hidden;
 }
 
-/*AQUI ACABA EL ESTILO DE CODIGO*/
+.salidapantalla pre{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
 
-/* AQUI COMIENZA EL ESTILO DE LA CABECERA */
-
-.cabecera{
-    width: 0 auto;
-    text-align: center;
+.pie{
+    margin-top: 10px;
+    padding-right: 1%;
+    justify-content: right;
+    display: flex;
+    width: 99%;
+    color: yellow;
     background-color: darkblue;
-    color: white;
-    font-size: 2em;
+    position:relative;
+    bottom: 0px;
 }
 
-/*AQUI ACABA EL ESTILO DE LA CABECERA */
+/* AQUI ACABA EL ESTILO GENERAL*/
 
 
 
@@ -146,6 +142,10 @@ div.lateral{
 .lateral ol li a{
     text-decoration: none;
     color: white;
+}
+
+.lateral ol li a:hover{
+    color: grey;
 }
 
 .logo{
@@ -166,29 +166,19 @@ div.lateral{
 
 
 
-/* AQUI COMIENZA EL ESTILO DEL PIE DE PAGINA */
-
-.pie{
-    margin-top: 10px;
-    padding-right: 1%;
-    justify-content: right;
-    display: flex;
-    width: 99%;
-    color: yellow;
-    background-color: darkblue;
-    position:relative;
-    bottom: 0px;
-}
-
-
-/*AQUI ACABA EL ESTILO DEL PIE DE PAGINA */
-
-
-
 /* AQUI COMIENZA EL ESTILO DEL HTML CONSTRUCCION */
 
 .tituloaviso{
-    font-size: 2em;
+    font-size: 3em;
+    z-index: 1;
+}
+
+.tituloaviso::after, .tituloaviso::before{
+    content:url("imagenes/construccion.png");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    z-index: 100;
 }
 
 .central .aviso{
@@ -198,3 +188,81 @@ div.lateral{
 }
 
 /*AQUI ACABA EL ESTILO DEL HTML CONSTRUCCION*/
+
+
+
+/*AQUI COMIENZA EL ESTILO DE INDEX*/
+
+dt{
+    font-weight: bold;
+}
+
+.codigo{
+    color: white;
+    background-color: dodgerblue;
+    border: 4px double darkblue;
+}
+
+.codigo pre{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.figura{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid blue;
+    overflow: hidden;
+}
+
+.figura img{
+    max-width: 100%;
+}
+
+.ecuacion{
+    text-align: center;
+}
+
+.identificadorExp{
+    background-color: lightgreen;
+    border: 6px solid darkblue;
+    color: darkblue;
+    padding: 2px;
+    font-size: 1em;
+    display: inline-block;
+    margin: 8px;
+}
+
+.identificadorEje{
+    background-color: orange;
+    border: 6px solid darkblue;
+    color: darkblue;
+    padding: 2px;
+    font-size: 1em;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.identificadorPro{
+    background-color: yellow;
+    border: 6px solid darkblue;
+    color: darkblue;
+    padding: 2px;
+    font-size: 1em;
+    display: inline-block;
+    margin: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+a:hover{
+    color: darkred;
+}
+
+/*AQUI ACABA EL ESTILO DE INDEX*/
