@@ -38,6 +38,7 @@ body{
     background-color: darkblue;
     color: white;
     font-size: 1.5em;
+    font-family: Arial;
 }
 
 .central{
@@ -59,6 +60,7 @@ body{
     color: darkblue;
     padding: 10px;
     text-align: center;
+    font-family: Arial;
 }
 
 .areaLimpia{
@@ -69,10 +71,12 @@ body{
 .tablaContenido ol li a{
     text-decoration: none;
     color: darkblue;
+    font-weight:lighter;
 }
 
 .tablaContenido ol li a:hover{
     color: blue;
+    font-weight: lighter;
 }
 
 .tablaContenido{
@@ -81,6 +85,7 @@ body{
     background-color: white;
     text-align: left;
     border: 5px dashed darkblue;
+    font-family: Arial;
 }
 
 h3{
@@ -89,6 +94,7 @@ h3{
     color: darkblue;
     text-align: left;
     border-bottom: 2px solid darkblue;
+    font-family: Arial;
 }
 
 .bloqueexplicacion{
@@ -99,6 +105,7 @@ h3{
 
 h4{
     color:darkblue;
+    font-family: Arial;
 }
 
 .salidapantalla{
@@ -234,6 +241,7 @@ dt{
     font-size: 1em;
     display: inline-block;
     margin: 8px;
+    font-weight: bold;
 }
 
 .identificadorEje{
@@ -244,6 +252,7 @@ dt{
     font-size: 1em;
     display: inline-block;
     margin-right: 8px;
+    font-weight: bold;
 }
 
 .identificadorPro{
@@ -254,6 +263,7 @@ dt{
     font-size: 1em;
     display: inline-block;
     margin: 8px;
+    font-weight: bold;
 }
 
 a{
