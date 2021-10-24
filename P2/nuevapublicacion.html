@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Carlos Maroto">
+    <title>Nueva publicacion</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>Games for gamers</h1>
+    </header>
+
+    <hr class="separador">
+
+    <nav class="navegador">
+        <ul>
+            <li class="inicio"><a href="Index.html">Inicio</a></li>
+            <li class="nuevasPublicaciones"><a href="#">Nueva publicacion</a></li>
+            <li class="contacto"><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <hr class="separador">
+
+    <section class="seccion">
+        <article class="articulo0" style="margin: 0%; margin-left: 10%; width: 80%; height: 100px;">
+            <a>
+                <img src="Media/bannerPublicitario.jpg" alt="Publicidad" style="margin: 0%; margin-left: 10%; width: 80%; height: 100px;">
+            </a>
+        </article>
+
+        <hr class="separador">
+
+        <article class="articulo1">
+            <h2>Nueva publicacion</h2>
+
+            <form action="Index.html">
+                <fieldset>
+                    <table>
+                        <tr>
+                            <td><label for="nombre">Nombre: </label></td>
+                            <td><input id="nombre" type="text" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email: </label></td>
+                            <td><input id="email" type="email" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="fecha">Fecha de nacimiento: </label></td>
+                            <td><input id="fecha" type="date" required></td>
+                        </tr>
+                            <td><label for="comentario">Comentario: </label></td>
+                            <td><textarea name="Comentario" id="comentario" cols="30" rows="10" required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><label for="telefono">Telefono</label></td>
+                            <td><input id="telefono" type="phone" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="000-000-000"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="color">Color del texto:</label></td>
+                            <td><input id="color" type="color"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="calificacion">Satisfaccion con la pagina: </label></td>
+                            <td><input id="calificacion" type="range" min="0" max="10"></td>
+                        </tr>               
+                    </table>
+                    <br/>
+                    <input type="submit">
+                    <input type="reset">
+                </fieldset> 
+            </form>
+        </article>
+    </section>
+
+    <hr class="separador">
+
+    <footer class="footer">
+        <div class="licencia">
+            <a class="license" rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                <img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+            </a>
+
+            <p class="license" >Este obra está bajo una
+                <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                    licencia de Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional
+                </a>.
+            </p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
